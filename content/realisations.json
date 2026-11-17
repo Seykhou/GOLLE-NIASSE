@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "title": "Maison familiale, séjour ouvert",
+      "caption": "Illustration d'exemple",
+      "image": "images/gal-sejour.jpg",
+      "category": "Maison · Rendu 3D"
+    },
+    {
+      "title": "Douche à l’italienne",
+      "caption": "Illustration d'exemple",
+      "image": "images/gal-douche.jpg",
+      "category": "Salle de bain"
+    },
+    {
+      "title": "Suite parentale",
+      "caption": "Illustration d'exemple",
+      "image": "images/gal-suite.jpg",
+      "category": "Chambre"
+    },
+    {
+      "title": "Plan d’aménagement T3",
+      "caption": "Illustration d'exemple",
+      "image": "images/gal-plan.jpg",
+      "category": "Plan 2D · AutoCAD"
+    },
+    {
+      "title": "Salle d’eau compacte",
+      "caption": "Illustration d'exemple",
+      "image": "images/gal-salle-eau.jpg",
+      "category": "Salle de bain"
+    },
+    {
+      "title": "Maison individuelle",
+      "caption": "Illustration d'exemple",
+      "image": "images/gal-maison.jpg",
+      "category": "Revit · Maquette"
+    },
+    {
+      "title": "Maquette 3D isométrique",
+      "caption": "Illustration d'exemple",
+      "image": "images/illu-maquette-3d.svg",
+      "category": "Maquette 3D"
+    },
+    {
+      "title": "Plan 2D coté",
+      "caption": "Illustration d'exemple",
+      "image": "images/illu-plan-2d.svg",
+      "category": "Plan 2D"
+    },
+    {
+      "title": "Rendu d’ambiance schématique",
+      "caption": "Illustration d'exemple",
+      "image": "images/illu-rendu.svg",
+      "category": "Rendu"
+    },
+    {
+      "title": "Feuille plan / coupe",
+      "caption": "Illustration d'exemple",
+      "image": "images/illu-feuille-revit.svg",
+      "category": "Feuille de plans"
+    }
+  ]
+}

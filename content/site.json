@@ -1,0 +1,105 @@
+{
+  "siteName": "Gollé Niasse — Dessinateur-projeteur CAO-DAO",
+  "email": "st.niasse@yahoo.com",
+  "phone": "06 44 79 77 78",
+  "phoneTel": "+33644797778",
+  "texts": {
+    "heroTitle": "Des plans techniques clairs, prêts pour le chantier.",
+    "heroLead": "Modélisation 2D/3D, mise à jour des plans d’exécution et documents techniques conformes aux normes. Un interlocuteur unique, en lien avec les bureaux d’études et les équipes de chantier.",
+    "aboutTitle": "Gollé Niasse — Dessinateur-projeteur CAO-DAO",
+    "aboutLead": "GN est la marque de Gollé Niasse, dessinateur-projeteur CAO-DAO spécialisé dans la conception et la réalisation de plans techniques assistés par ordinateur.",
+    "contactTitle": "Gollé Niasse — Dessinateur-projeteur CAO-DAO",
+    "contactLead": "Parlons de votre projet. Envoyez-moi quelques lignes, un plan existant ou un brief. Je vous réponds sous 48 heures avec une proposition et un devis."
+  },
+  "competences": [
+    "Modélisation 2D/3D",
+    "Plans d’exécution",
+    "Documents techniques conformes aux normes",
+    "Dessin 2D à la main et sur ordinateur",
+    "Architecture et aménagement",
+    "Électricité du bâtiment",
+    "Création et modification de plannings de suivi, type MS Project ou autre"
+  ],
+  "tarifs": {
+    "intro": "Composez votre mission à la carte.",
+    "options": [
+      {
+        "id": "plans2d",
+        "label": "Plans 2D",
+        "desc": "Plans techniques cotés, coupes et élévations, export PDF et DWG.",
+        "price": 150,
+        "wide": false
+      },
+      {
+        "id": "esquisses",
+        "label": "Esquisses",
+        "desc": "Première intention, plan clair et rapide pour cadrer le projet.",
+        "price": 150,
+        "wide": false
+      },
+      {
+        "id": "modele3d",
+        "label": "Modélisation 3D",
+        "desc": "Maquette 3D sous Revit, volumes et cohérence spatiale.",
+        "price": 350,
+        "wide": false
+      },
+      {
+        "id": "modifs",
+        "label": "Modifications / mise à jour de plans",
+        "desc": "Reprise et actualisation d’un dossier existant.",
+        "price": 150,
+        "wide": false
+      },
+      {
+        "id": "execution",
+        "label": "Plans d’exécution",
+        "desc": "Documents d’exécution prêts à être utilisés sur le chantier.",
+        "price": 280,
+        "wide": false
+      },
+      {
+        "id": "releves",
+        "label": "Relevés / mise au propre",
+        "desc": "Relevé ou mise au propre de plans existants, pour un dossier lisible.",
+        "price": 180,
+        "wide": false
+      },
+      {
+        "id": "documents",
+        "label": "Documents techniques / dossiers",
+        "desc": "Pièces écrites et dossiers conformes aux normes, selon le projet.",
+        "price": null,
+        "wide": false
+      },
+      {
+        "id": "rendus",
+        "label": "Rendus visuels",
+        "desc": "Images d’ambiance pour visualiser les matériaux et la lumière.",
+        "price": 200,
+        "wide": false
+      },
+      {
+        "id": "planning",
+        "label": "Création et modification de plannings de suivi, type MS Project ou autre",
+        "desc": "Planning de suivi des études ou du chantier, établi ou modifié selon votre méthode de travail.",
+        "price": null,
+        "wide": true
+      },
+      {
+        "id": "amenagement",
+        "label": "Aménagement intérieur",
+        "desc": "Agencement d’une pièce ou d’un logement, finitions et implantation.",
+        "price": 450,
+        "wide": false
+      },
+      {
+        "id": "elec",
+        "label": "Plans électriques (CFO / CFA)",
+        "desc": "Implantation des courants forts et faibles, à partir de vos symboles.",
+        "price": null,
+        "wide": false
+      }
+    ]
+  }
+}
