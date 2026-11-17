@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 380" role="img" aria-label="Rendu schématique d'un intérieur">
+  <!-- Illustration d'exemple — petit rendu d'ambiance. Remplacer ce bloc SVG par un rendu réel. -->
+  <rect width="480" height="380" fill="#ffffff"/>
+  <!-- room perspective: floor, two walls, ceiling -->
+  <!-- floor -->
+  <polygon points="40,300 240,240 460,310 260,380 40,380" fill="#0f1a2b" fill-opacity=".06" stroke="#0f1a2b" stroke-width="1.2"/>
+  <!-- floor joints -->
+  <g stroke="#0f1a2b" stroke-width="0.6" stroke-opacity=".35" fill="none">
+    <path d="M70 310 L260 250 L430 318"/>
+    <path d="M110 325 L275 262 L400 328"/>
+    <path d="M150 340 L290 274 L370 338"/>
+    <path d="M80 350 L240 240"/>
+    <path d="M140 360 L300 248"/>
+    <path d="M200 370 L360 258"/>
+    <path d="M90 290 L200 370"/>
+  </g>
+  <!-- back wall -->
+  <polygon points="160,80 400,60 400,255 240,240 160,260" fill="#ffffff" stroke="#0f1a2b" stroke-width="1.3"/>
+  <!-- left wall -->
+  <polygon points="40,110 160,80 160,260 40,300" fill="#1e3a5f" stroke="#0f1a2b" stroke-width="1.3"/>
+  <!-- ceiling -->
+  <polygon points="40,110 160,80 400,60 280,90" fill="#ffffff" stroke="#0f1a2b" stroke-width="1.2"/>
+  <!-- window on back wall (bright opening) -->
+  <polygon points="230,100 370,88 370,210 240,220" fill="#ffffff" stroke="#0f1a2b" stroke-width="1.4"/>
+  <g stroke="#0f1a2b" stroke-width="1.1" fill="none">
+    <path d="M300 94 V215"/>
+    <path d="M235 155 H370"/>
+    <!-- curtain hint -->
+    <path d="M226 100 C226 140 222 180 228 220" stroke-width="2"/>
+    <path d="M218 102 C216 145 214 185 220 222" stroke-width="1.2"/>
+  </g>
+  <!-- sofa block -->
+  <g stroke="#0f1a2b" stroke-width="1.2" fill="#0f1a2b">
+    <polygon points="90,268 200,238 250,258 150,292" fill="#0f1a2b"/>
+    <polygon points="90,268 90,248 200,218 200,238" fill="#1e3a5f"/>
+    <polygon points="200,218 250,238 250,258 200,238" fill="#0f1a2b"/>
+    <!-- backrest -->
+    <polygon points="90,248 90,228 198,200 200,218" fill="#0f1a2b"/>
+    <polygon points="200,200 248,220 250,238 200,218" fill="#1e3a5f"/>
+  </g>
+  <!-- coffee table -->
+  <g stroke="#0f1a2b" stroke-width="1.1" fill="#ffffff">
+    <polygon points="150,300 210,282 250,298 190,318"/>
+    <path d="M160 302 V322 M200 316 V334 M240 300 V318 M172 286 V304" fill="none"/>
+  </g>
+  <!-- plant -->
+  <g fill="none" stroke="#0f1a2b" stroke-width="1.1">
+    <polygon points="330,270 350,270 355,300 325,300" fill="#1e3a5f"/>
+    <path d="M340 270 C330 240 350 230 340 210"/>
+    <path d="M340 250 C320 245 318 260 328 268"/>
+    <path d="M340 248 C360 242 362 262 350 270"/>
+    <path d="M340 230 C325 220 328 240 338 248"/>
+  </g>
+  <!-- slim floor lamp -->
+  <g stroke="#0f1a2b" stroke-width="1.2" fill="none">
+    <path d="M80 290 V200"/>
+    <path d="M80 200 H108"/>
+    <circle cx="118" cy="200" r="10" fill="#ffffff"/>
+  </g>
+  <g fill="#0f1a2b" font-family="Inter,system-ui,sans-serif" font-size="9" letter-spacing="1.2">
+    <text x="24" y="28">RENDU</text>
+    <text x="24" y="42" fill="#1e3a5f">VUE INTÉRIEURE · SCHÉMA</text>
+  </g>
+</svg>
