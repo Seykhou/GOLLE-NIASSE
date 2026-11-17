@@ -1,0 +1,69 @@
+backend:
+  name: github
+  repo: Seykhou/GOLLE-NIASSE
+  branch: main
+  site_domain: splendid-kringle-9bd18e.netlify.app
+
+locale: fr
+media_folder: images
+public_folder: /images
+
+collections:
+  - name: textes
+    label: Textes du site
+    files:
+      - name: site
+        label: Contenus et tarifs
+        file: content/site.json
+        fields:
+          - { label: Nom du site, name: siteName, widget: string }
+          - { label: E-mail, name: email, widget: string }
+          - { label: Téléphone (affichage), name: phone, widget: string }
+          - { label: Téléphone (lien tel), name: phoneTel, widget: string }
+          - label: Textes
+            name: texts
+            widget: object
+            fields:
+              - { label: Titre d'accueil, name: heroTitle, widget: string }
+              - { label: Chapô d'accueil, name: heroLead, widget: text }
+              - { label: Titre À propos, name: aboutTitle, widget: string }
+              - { label: Chapô À propos, name: aboutLead, widget: text }
+              - { label: Titre Contact, name: contactTitle, widget: string }
+              - { label: Chapô Contact, name: contactLead, widget: text }
+          - label: Compétences
+            name: competences
+            widget: list
+            allow_add: true
+            field: { label: Compétence, name: item, widget: string }
+          - label: Tarifs
+            name: tarifs
+            widget: object
+            fields:
+              - { label: Introduction, name: intro, widget: string }
+              - label: Options
+                name: options
+                widget: list
+                allow_add: true
+                fields:
+                  - { label: Identifiant, name: id, widget: string }
+                  - { label: Intitulé, name: label, widget: string }
+                  - { label: Description, name: desc, widget: text }
+                  - { label: Prix indicatif (€, laisser vide = sur devis), name: price, widget: number, required: false, value_type: int }
+                  - { label: Option pleine largeur, name: wide, widget: boolean, required: false }
+
+  - name: realisations
+    label: Réalisations
+    files:
+      - name: gallery
+        label: Galerie
+        file: content/realisations.json
+        fields:
+          - label: Projets
+            name: items
+            widget: list
+            allow_add: true
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Légende, name: caption, widget: string, default: "Illustration d'exemple" }
+              - { label: Image, name: image, widget: image }
+              - { label: Catégorie, name: category, widget: string }
