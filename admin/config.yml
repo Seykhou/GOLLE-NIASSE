@@ -48,7 +48,7 @@ collections:
                   - { label: Identifiant, name: id, widget: string }
                   - { label: Intitulé, name: label, widget: string }
                   - { label: Description, name: desc, widget: text }
-                  - { label: Prix indicatif (€, laisser vide = sur devis), name: price, widget: number, required: false, value_type: int }
+                  - { label: "Prix indicatif (€, laisser vide = sur devis)", name: price, widget: number, required: false, value_type: int }
                   - { label: Option pleine largeur, name: wide, widget: boolean, required: false }
 
   - name: realisations
